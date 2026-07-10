@@ -10,7 +10,7 @@
 
 | 이름 | GitHub | 역할 |
 |---|---|---|
-| Jenna | [@Dearkimm](https://github.com/Dearkimm) | TBD |
+| Jenna | [@Dearkimm](https://github.com/Dearkimm) | DA |
 | Giselle | [@smearth](https://github.com/smearth) | DA |
 
 ## 프로젝트 목표
@@ -20,6 +20,7 @@
 3. **퍼널 · 코호트 분석** — 유입 → 상세 조회 → 예약 전환 흐름 분석
 4. **A/B 테스트 설계 및 검증** — 가설 수립, 표본 크기 계산, 검정력 분석, 결과 해석
 5. **실제 개선 제안** — 분석 결과를 운영자에게 제안하고 반영 여부까지 추적
+6. **GitHub 협업 워크플로 습득** — 브랜치 · PR · 코드 리뷰 기반의 협업 경험 (모든 변경을 PR로 관리)
 
 ## 레포 구조
 
