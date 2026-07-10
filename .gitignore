@@ -1,0 +1,28 @@
+# 데이터 — 원본/가공 데이터는 절대 커밋하지 않음 (개인정보/계약 이슈)
+data/**
+!data/**/
+!data/**/.gitkeep
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 환경/비밀정보
+.env
+*.pem
+credentials*.json
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
