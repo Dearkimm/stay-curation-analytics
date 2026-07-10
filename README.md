@@ -10,8 +10,8 @@
 
 | 이름 | GitHub | 역할 |
 |---|---|---|
-| Kim | [@Dearkimm](https://github.com/Dearkimm) | TBD |
-| (친구) | TBD | TBD |
+| Jenna | [@Dearkimm](https://github.com/Dearkimm) | TBD |
+| Giselle | [@smearth](https://github.com/smearth) | TBD |
 
 ## 프로젝트 목표
 
@@ -33,15 +33,24 @@
 └── docs/          # 기획 문서, 아이디어, 협업 규칙
 ```
 
-## 데이터
+## 🔒 데이터 보안 (위반 절대 불가)
 
-- 원본 데이터는 개인정보 보호를 위해 레포에 포함하지 않습니다.
-- 데이터 스키마와 집계 결과만 문서로 공개합니다. (추후 `docs/schema.md` 작성 예정)
+이 프로젝트는 **실제 서비스의 실데이터**를 다루며, 레포는 **public**입니다.
 
-## 협업 규칙
+- **원본 데이터 파일은 어떤 경우에도 커밋 금지.** 각자 로컬 `data/`에만 보관.
+- 한 번 push된 데이터는 삭제 커밋으로도 지워지지 않고 이력에 영구히 남습니다.
+- 노트북 출력 셀의 개인정보도 유출입니다 — 클론 직후 `nbstripout` 설치 **필수**.
+- 레포에 공개 가능한 것은 코드 · 스키마 · **집계된** 결과 수치뿐입니다.
+- 상세 규칙: [docs/collaboration.md](docs/collaboration.md)의 "실데이터 보안" 섹션 **필독**.
 
-[docs/collaboration.md](docs/collaboration.md) 참고. 핵심 요약:
+## 협업 규칙 (필독)
 
-- `main` 직접 커밋 금지 — 항상 브랜치 → PR → 상대 리뷰 → 머지
-- 작업 시작 전 `git pull origin main` 후 브랜치 생성
-- 같은 노트북 파일을 동시에 수정하지 않기 (충돌 방지)
+**[docs/collaboration.md](docs/collaboration.md)를 클론 직후, 첫 커밋 전에 반드시 끝까지 읽을 것.**
+
+🚨 절대 금지 5계명 요약:
+
+1. `main` 직접 커밋/푸시 금지 — 항상 브랜치 → PR → 상대 승인 → 머지
+2. `git push -f` (force push) 금지 — 상대방의 이력이 날아감
+3. `pull` 없이 작업 시작 금지 — 충돌의 90%가 여기서 발생
+4. 같은 노트북(.ipynb) 동시 수정 금지 — 한 파일 = 한 사람
+5. 데이터 파일 커밋 금지 — 위 보안 섹션 참고
