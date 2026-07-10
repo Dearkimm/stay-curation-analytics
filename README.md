@@ -11,7 +11,7 @@
 | 이름 | GitHub | 역할 |
 |---|---|---|
 | Jenna | [@Dearkimm](https://github.com/Dearkimm) | TBD |
-| Giselle | [@smearth](https://github.com/smearth) | TBD |
+| Giselle | [@smearth](https://github.com/smearth) | DA |
 
 ## 프로젝트 목표
 
